@@ -1,0 +1,29 @@
+button {
+    background-color: #343434;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    padding: .5em;
+    border: 1px solid #dedede;
+}
+
+button:hover {
+    background-color: white;
+    color: #343434;
+}
+
+.equals, .divide {
+    /*grid-column: 3 / 5;*/
+    background-color: rgb(243, 61, 29);
+}
+.divide{
+    background: #343434;
+    color: white;
+}
+
+.equals:hover, .divide:hover {
+    background-color: rgb(228, 39, 15);
+}
